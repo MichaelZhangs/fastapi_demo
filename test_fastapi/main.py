@@ -10,7 +10,7 @@ from fastapi import Request, Response
 from app.routers import api
 from fastapi.middleware.cors import CORSMiddleware
 from app.config.database_config import async_session
-from utils.redis_help import redis_conn
+# from utils.redis_help import redis_conn
 from log.new_log import create_logger, stdout_handler, daily_rotaiting_handler
 
 
